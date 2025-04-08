@@ -1,0 +1,88 @@
+@import "tailwindcss";
+
+:root {
+  --clr-orange: hsl(24 100% 50%);
+  --clr-blue: hsl(240, 70%, 35%);
+  --clr-green: hsl(157 100% 14%);
+}
+
+@theme {
+  --animate-Nav:fade-in 200ms ease-in-out;
+  --animate-Nav-1:fade-in 400ms ease-in-out;
+  --animate-Nav-2:fade-in 600ms ease-in-out;
+  --animate-Nav-3:fade-in 800ms ease-in-out;
+
+  /* --animate-feature-slide: feature-slide 9000ms ease-in-out infinite; */
+
+  @keyframes fade-in {
+    0%{
+      opacity:0;
+      transform: scale(0)
+    };
+    100%{
+      opacity: 1;
+      transform: scale(1)
+    }
+  };
+
+  /* @keyframes feature-slide {
+    5%{
+      opacity: 1;
+      transform:  translateX(0%);
+    }
+    35%{
+      opacity: 1;
+      transform:  translateX(-35%);
+    }
+    65%{
+      opacity: 1;
+      transform:  translateX(-70%); 
+    }
+    85%{
+      opacity: 0;
+    }
+    95%{
+      opacity: 1;
+      transform:  translateX(0%);
+    }
+  } */
+}
+
+@layer components {
+  .currentSlide{
+    opacity: 1;
+    transform: translateY(0) scale(1, 1);
+    
+  }
+  .previousSlide{
+    transform: translateY(100%) scale(1, 0);
+    opacity: 0;
+  }
+  .nextSlide{
+    transform: translateY(-100%) scale(1, 0);
+    opacity: 0;
+  }
+  .infor-container{
+    width:100%;
+    padding-inline:1em 0.5em;
+    padding-block: 2em;
+    box-shadow: inset 1px -5px 5px 0 hsl(240, 70%, 35%, 0.5);
+    border-radius:0.5em;
+    max-width: 800px;
+    margin-inline: auto;
+  }
+  .skills span{
+    background-color: hsla(197, 43%, 54%, 0.5);
+    color: white;
+    padding-inline: 5px;
+    padding-block: 2px;
+    border-radius: 5px;
+  }
+
+  li h6{
+    text-decoration: underline;
+    text-underline-offset: 0.25em;
+    margin-top: 1em;
+    font-weight: 700;
+  }
+} 
