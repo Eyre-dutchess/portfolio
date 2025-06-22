@@ -5,7 +5,7 @@ import { MoonLoader } from 'react-spinners'
 
 const LoadingModal=()=> {
   return (
-    <MoonLoader size={40} color='orange' className='mt-40'/>
+    <MoonLoader size={60} color='orange' className='w-screen h-screen flex items-center justify-center'/>
   )
 }
 export default LoadingModal
