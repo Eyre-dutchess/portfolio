@@ -25,7 +25,7 @@ export const Footer = () => {
                   <AiOutlineMail />
                   Email: <span className='italic  font-light'>xweyre@gmail.com</span> 
                 </div>
-                <div className='flex items-center gap-2'>
+                <div onClick={()=>{router.push("https://github.com/Eyre-dutchess")}} className='flex text-green-400 items-center gap-2'>
                   <AiOutlineHome />
                   Location: <span className='italic font-light'>Shanghai, China</span> 
                 </div>
@@ -36,7 +36,7 @@ export const Footer = () => {
                   </div>
                 </a>
                 <Link href="https://www.linkedin.com/in/eyre-xi-697864ba">
-                  <div  className='flex items-center gap-2'>
+                  <div  className='flex items-center gap-2 text-blue-400'>
                     <AiOutlineLinkedin />
                     LinkedIn:  <span className='italic cursor-pointer transition hover:not-italic hover:underline underline-offset-4'>www.linkedin.com/in/eyre-xi-697864ba</span>
                   </div>
