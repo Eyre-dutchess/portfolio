@@ -30,7 +30,7 @@ export const Footer = () => {
                   Location: <span className='italic font-light'>Shanghai, China</span> 
                 </div>
                 <a href="https://github.com/Eyre-dutchess">
-                  <div className='flex items-center gap-2' >
+                  <div className='flex items-center gap-2 text-red-400' >
                     <AiOutlineGithub />
                     Github:  <span className='italic cursor-pointer transition hover:not-italic hover:underline underline-offset-4'>https://github.com/Eyre-dutchess</span>
                   </div>
