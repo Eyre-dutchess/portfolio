@@ -8,7 +8,7 @@ import { InfoSec } from "./component/mainPage/InfoSec";
 export default function Home() {
   return (
     
-      <div className="bg-white relative z-30 w-full pt-30 pb-10 min-h-[100vh] text-sky-800/75">
+      <div className="bg-white relative z-40 w-full pt-30 pb-10 min-h-[100vh] text-sky-800/75">
         <Container>
           <HomeSec />
           <FeatureSec />
