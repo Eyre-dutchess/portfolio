@@ -12,7 +12,7 @@ export const Footer = () => {
     const router = useRouter()
     
   return(
-    <div className={`md:p-4  w-4/5 transition relative z-50 hover:bg-red-800
+    <div className={`md:p-4  w-4/5 transition relative z-50 
         ${isMainPage?"w-full text-sky-900/75 hover:text-sky-900 lg:pr-[12em]":"text-white/75 hover:text-white"}
         ${pathName==="entertain"?"w-4/5 lg:flex items-center justify-center lg:pr-[3em]":""} 
         ${pathName==="lifestyle"?"lg:flex items-center justify-center lg:pl-[3em]":""}
@@ -26,18 +26,18 @@ export const Footer = () => {
                   <AiOutlineMail />
                   Email: <span className='italic  font-light'>xweyre@gmail.com</span> 
                 </div>
-                <div onClick={()=>{router.push("https://github.com/Eyre-dutchess")}} className='flex text-green-400 items-center gap-2'>
+                <div  className='flex  items-center gap-2'>
                   <AiOutlineHome />
                   Location: <span className='italic font-light'>Shanghai, China</span> 
                 </div>
-                <a href="https://github.com/Eyre-dutchess">
-                  <div className='flex items-center gap-2 text-red-400' >
+                <Link href="https://github.com/Eyre-dutchess">
+                  <div className='flex items-center gap-2 ' >
                     <AiOutlineGithub />
                     Github:  <span className='italic cursor-pointer transition hover:not-italic hover:underline underline-offset-4'>https://github.com/Eyre-dutchess</span>
                   </div>
-                </a>
+                </Link >
                 <Link href="https://www.linkedin.com/in/eyre-xi-697864ba">
-                  <div  className='flex items-center gap-2 text-blue-400'>
+                  <div  className='flex items-center gap-2 '>
                     <AiOutlineLinkedin />
                     LinkedIn:  <span className='italic cursor-pointer transition hover:not-italic hover:underline underline-offset-4'>www.linkedin.com/in/eyre-xi-697864ba</span>
                   </div>
