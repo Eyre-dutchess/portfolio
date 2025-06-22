@@ -30,10 +30,14 @@ const entertainData = [
    {title:"game",
     srcList: [
        "/images/3game/tetris.png",
+       "/images/3game/tetris-i.jpeg",
        "/images/3game/snakegame.png",
-       "/images/3game/spaceshooter.png"
+       "/images/3game/snake-i.jpeg",
+       "/images/3game/spaceshooter.png",
+       "/images/3game/space-i.jpeg",
+       "/images/3game/game.png"
      ],
-     url:""
+     url:"https://game-database-two.vercel.app"
    },
 ]
 export const FeatureSec = () => {
