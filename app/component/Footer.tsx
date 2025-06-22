@@ -12,7 +12,7 @@ export const Footer = () => {
     const router = useRouter()
     
   return(
-    <div className={`md:p-4  w-4/5 transition relative z-50
+    <div className={`md:p-4  w-4/5 transition relative z-50 hover:bg-red-800
         ${isMainPage?"w-full text-sky-900/75 hover:text-sky-900 lg:pr-[12em]":"text-white/75 hover:text-white"}
         ${pathName==="entertain"?"w-4/5 lg:flex items-center justify-center lg:pr-[3em]":""} 
         ${pathName==="lifestyle"?"lg:flex items-center justify-center lg:pl-[3em]":""}
