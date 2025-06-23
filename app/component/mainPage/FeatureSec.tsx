@@ -11,6 +11,10 @@ const  featureData = [
       //  "/images/3music/spotify1.png",
       //  "/images/3music/spotify5.png",
        "/images/3game/tetris.png",
+        "/images/3game/game.png",
+        "/images/3game/quiz1.png",
+        "/images/3game/quiz2.png",
+        "/images/3game/quiz3.png",
        "/images/3game/snakegame.png",
        "/images/3game/spaceshooter.png"
      ]
