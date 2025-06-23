@@ -17,8 +17,8 @@ const entertainData = [
    },
    {title:"musicPlayer",
     srcList: [
-       "/images/3music/spotify1.png",
-       "/images/3music/spotify2.png",
+       "/images/3music/music1.png",
+       "/images/3music/music2.png",
      ],
     url:"https://music-player-vite-mu.vercel.app"
    },
