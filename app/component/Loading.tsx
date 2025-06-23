@@ -1,11 +1,11 @@
 "use client"
 
 import React from 'react'
-import { MoonLoader } from 'react-spinners'
+import { HashLoader } from 'react-spinners'
 
 const LoadingModal=()=> {
   return (
-    <MoonLoader size={120} color='orange' className=' font-bold'/>
+    <HashLoader size={120} color='blue' className=' font-bold'/>
   )
 }
 export default LoadingModal
