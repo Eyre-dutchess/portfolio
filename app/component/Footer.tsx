@@ -56,7 +56,7 @@ export const Footer = () => {
                 <FaMapPin className='absolute -top-4 right-4 text-3xl rotate-45 text-sky-400'/>
                 <div className='flex items-center gap-2'>
                   <AiOutlineMail />
-                  Email: <span className='italic  font-light'>xweyre@gmail.com</span> 
+                  Email: <span className='italic  font-light'>EyreJinx@outlook.com</span> 
                 </div>
                 <div className='flex items-center gap-2'>
                   <AiOutlineHome />
