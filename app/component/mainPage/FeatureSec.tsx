@@ -8,8 +8,8 @@ const  featureData = [
     srcList: [
        "/images/3netflix/netflix4.png",
        "/images/3netflix/netflix2.png",
-      //  "/images/3music/spotify1.png",
-      //  "/images/3music/spotify5.png",
+       "/images/3music/music1.png",
+       "/images/3music/music2.png",
        "/images/3game/tetris.png",
         "/images/3game/game.png",
         "/images/3game/quiz1.png",
