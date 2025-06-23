@@ -20,7 +20,7 @@ export const MobileNav = ({showNav, navList, setShowNav}: MobileNavProps) => {
     <div className={`lg:hidden block w-screen h-screen fixed top-0 left-0 bg-white z-50  text-xl transition duration-500 origin-top transform ${show?"scale-100":"scale-0"}`}>
         <div className='font-[family-name:var(--font-title)] grid grid-cols-2 grid-rows-2 h-[calc(100%_-_10em)]'>
             {navList.map((item: any)=>{
-                    return <NavItem key={item.label} label={item.label} path={item.path} onClick={()=> router.push(`${item.path}`)} 
+                    return <NavItem nav key={item.label} label={item.label} path={item.path} onClick={()=> router.push(`${item.path}`)} 
                             lgTextClr={item.lgTextClr} bgClr={item.bgClr} textClr={item.textClr} animate={item.animate}/>
             })}
         </div>
