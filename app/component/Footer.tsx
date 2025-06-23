@@ -49,11 +49,11 @@ export const Footer = () => {
     //   }, [])
 
   return(
-    <div className={`md:p-4 transition relative z-50 mb-10 ${position}`}>
+    <div className={`md:p-4 transition relative z-30 mb-10 ${position}`}>
         <div className='lg:flex flex-col items-center md:px-[5vw] '>
             <h1 className="text-3xl  -pb-2 font-bold ">Contact Me </h1>
             <div className='relative w-full border-2 border-dotted truncate lg:w-max  p-4 md:py-8 md:px-[calc(1em_+_5vw)] shadow shadow-blue-200/50 rounded-md text-sm font-semibold md:text-lg flex flex-col items-start justify-between '>
-                <FaMapPin className='absolute -top-4 right-4 text-3xl rotate-45 text-sky-400'/>
+                <FaMapPin className='absolute -top-4 right-4 z-40 text-3xl rotate-45 text-sky-400'/>
                 <div className='flex items-center gap-2'>
                   <AiOutlineMail />
                   Email: <span className='italic  font-light'>EyreJinx@outlook.com</span> 
