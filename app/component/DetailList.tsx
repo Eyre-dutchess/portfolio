@@ -19,7 +19,7 @@ export const DetailList = ({title, srcList, url}: DetailListProps) => {
     const router = useRouter()
     const [value, setValue] = useState(0)
     const [list, setList] = useState(srcList)
-    const visitTitles = ["game","airbnb","service","bucketList" ,"budget" ]
+    const visitTitles = ["game","airbnb","service","bucketList" ,"budget", "messenger" ]
     
       useEffect(()=>{
         let tempList = srcList  
