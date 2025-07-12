@@ -3,7 +3,7 @@
 import React, { useEffect, useMemo, useState } from 'react' 
 import { usePathname, useRouter } from 'next/navigation'
 import { FaMapPin } from 'react-icons/fa'
-import { AiOutlineGithub, AiOutlineHome, AiOutlineLinkedin, AiOutlineMail } from 'react-icons/ai'
+import { AiOutlineGithub, AiOutlinePhone , AiOutlineHome, AiOutlineLinkedin, AiOutlineMail } from 'react-icons/ai'
 import Link from 'next/link'
 
 
@@ -64,8 +64,8 @@ export const Footer = () => {
                 </div>
                 <Link href="https://github.com/Eyre-dutchess">
                   <div className='flex items-center gap-2' >
-                    <AiOutlineGithub />
-                    Github:  <span className='italic cursor-pointer transition hover:not-italic hover:underline underline-offset-4'>https://github.com/Eyre-dutchess</span>
+                    <AiOutlinePhone />
+                    Phone:  <span className='italic cursor-pointer transition hover:not-italic hover:underline underline-offset-4'>+86 18936819896</span>
                   </div>
                 </Link>
                 <Link href="https://www.linkedin.com/in/eyre-xi-697864ba">
