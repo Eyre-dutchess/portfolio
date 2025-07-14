@@ -28,7 +28,7 @@ const entertainData = [
        "/images/3game/snakegame.png",
        "/images/3game/spaceshooter.png",
        "/images/3game/quiz1.png",
-       "/images/3game/quiz2.png",
+       "/images/3game/ttt.png",
        "/images/3game/quiz3.png",
        "/images/3game/game.png"
      ],
